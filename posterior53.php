@@ -11,7 +11,7 @@ use actions/Action;
 use models/Model;
 use avulsas/Avulsa;
 
-require DIR_APP."autoload.php";
+require DIR_APP."autoload".DIRECTORY_SEPARATOR."autoload.php";
 
 $Action = new Action();
 $Model = new Model();

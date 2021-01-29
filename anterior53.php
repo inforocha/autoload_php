@@ -5,7 +5,7 @@ if (version_compare(phpversion(), '5.3.0', '>=')) {
 
 define('DIR_APP', dirname(__FILE__).DIRECTORY_SEPARATOR);
 
-require DIR_APP."autoload_anterior53.php";
+require DIR_APP."autoload".DIRECTORY_SEPARATOR."autoload_anterior53.php";
 
 $Action = new ActionSemNamespace();
 $Model = new ModelSemNamespace();
